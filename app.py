@@ -12,7 +12,7 @@ load_dotenv()
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 
 app=FastAPI(
-    title="Langchain Server",
+    title="Langchain Server by Zeeshan Ali",
     version="1.0",
     decsription="A simple API Server"
 
