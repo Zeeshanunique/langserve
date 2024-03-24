@@ -6,7 +6,8 @@ from langserve import add_routes
 import uvicorn
 import os
 
-os.environ['OPENAI_API_KEY']=os.getenv("OPENAI_API_KEY")
+os.environ['OPENAI_API_KEY']="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"
+# os.environ['OPENAI_API_KEY']=os.getenv('OPENAI_API_KEY')
 
 app=FastAPI(
     title="Langchain Server",
